@@ -1,0 +1,23 @@
+git init
+git add * 
+git config --global user.name "tharubijay"
+git config --global user.email
+
+
+for other project
+git init
+git add *
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://
+git push -u origin master
+
+for next files or code for same project
+git add * 
+git commit -m "Next change"
+git push -u origin master
+
+
+git add *
+git commit -m ""
+git push origin --force

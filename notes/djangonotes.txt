@@ -1,0 +1,29 @@
+ Django
+ pip install virtualenv
+    virtualenv env
+    venv\Scripts\activate.bat
+    pip install django  
+    django-admin startproject projectname
+    cd projctname
+    python manage.py makemigrations
+    python manage.py migrate  ---> 
+    python manage.py runserver
+    press ctrl c
+
+    python manage.py createsuperuser
+    ipaddress(admin)
+    email-->email@gmail.com
+ pass-->djangoemail
+ecommerce
+admin@admin.com
+admin@admin
+    
+python manage.py startapp home
+
+models.py
+
+1 python manage.py makemigrations
+2 python manage.py migrate
+pip install django-filter
+pip install djangorestframework
+
